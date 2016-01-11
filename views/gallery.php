@@ -24,12 +24,15 @@
 			$fileInfo = new Finfo(FILEINFO_MIME_TYPE);
 			$mimeType = $fileInfo->file($src);
 
-			if($mimeType === 'image/jpeg'){
+
+			
+			if($mimeType === 'image/jpeg' || $mimeType === 'image/pjpeg' || $mimeType === 'image/png' || $mimeType === 'image/gif'){
 				$out .= "<li><img src='$src' /></li>";
 			}
 			$filesInFolder->next();
 		}
 		$out .= "</ul>";
 		return $out;
-	} 
+	}
+
 ?>
