@@ -1,5 +1,10 @@
 <?php
 	
+	/*
+	* @author: jevy18
+	* @date: 01/22/2016 Updated Version
+	*/
+
 	ini_set('display_error','on');
 	error_reporting(E_ALL || E_STRICT);
 

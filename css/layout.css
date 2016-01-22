@@ -1,10 +1,8 @@
 
-
 h1{
 	color:red;
 	background-color: blue;
 }
-
 
 /*declare a new style rule in css/layout.css */
 div#overlay{
@@ -46,17 +44,11 @@ li.lightbox{
 	left: 10%;
 }
 
-/*
-nav {
-	background-color: #CCCCDE;
-	padding-top: 10px;
-
+footer{	
+    bottom : 45px;
+    height : 30px;
+    margin-top : 30px;
+    text-align: center;
+    width: 100%;
+    position: relative|fixed;
 }
-
-nav a{
-	display:inline-block;
-	text-decoration:none;
-	color: #000;
-	margin-left: 10px;
-}
-*/
